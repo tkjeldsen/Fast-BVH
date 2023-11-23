@@ -66,7 +66,7 @@ BVH<Float, Primitive> BuildStrategy<Float, 1>::operator()(Iterable<Primitive> pr
   using namespace Strategy1;
 
   // The threshold hold at which a leaf is made in the BVH.
-  static constexpr uint32_t leaf_size = 4;
+  static constexpr uint32_t leaf_size = 1;
 
   BuildStack todo;
 
